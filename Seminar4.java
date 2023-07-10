@@ -39,6 +39,7 @@ public class Seminar4 {
             changingList(myList, data);
             System.out.println(myList);
         }
+        input.close();
     }
 
     static void changingList(LinkedList<String> myList, String data) {
